@@ -168,4 +168,4 @@ The contact page includes a Google Maps iframe for Bekalta, Monastir. To update 
 
 ---
 
-*© 2025 Fekih Romdhane Contracting — Bekalta, Monastir, Tunisia. Est. 1970.*
+*© 2026 Fekih Romdhane Contracting — Bekalta, Monastir, Tunisia. Est. 1970.*
