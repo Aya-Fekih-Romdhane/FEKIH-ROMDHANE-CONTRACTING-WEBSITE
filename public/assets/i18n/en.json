@@ -1,0 +1,167 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Since 1985",
+    "title_line1": "Fekih Romdhane",
+    "title_line2": "Contracting",
+    "subtitle": "General Contractor — Bekalta, Tunisia",
+    "slogan": "Building Tunisia Since 1985",
+    "description": "A pioneering family business in construction and contracting, combining decades of heritage with modern methods to deliver exceptional projects.",
+    "cta_contact": "Contact Us",
+    "cta_services": "Explore Services",
+    "scroll_down": "Discover More"
+  },
+  "home": {
+    "card_location": "Bekalta · Monastir · Tunisia",
+    "card_names": "Mokhtar · Aymen · Achref · Amine",
+    "card_team": [
+      { "initial": "M" },
+      { "initial": "A" },
+      { "initial": "A" },
+      { "initial": "A" }
+    ]
+  },
+  "stats": {
+    "years": "41+",
+    "years_label": "Years of Experience",
+    "projects": "500+",
+    "projects_label": "Projects Completed",
+    "clients": "300+",
+    "clients_label": "Satisfied Clients",
+    "team": "50+",
+    "team_label": "Skilled Professionals"
+  },
+  "about_preview": {
+    "title": "A Family Legacy in Construction",
+    "text": "Founded in 1985 in Bekalta, Tunisia, by pioneer contractor Mokhtar Fekih Romdhane. Today, his sons continue this proud legacy.",
+    "cta": "Learn More"
+  },
+  "about": {
+    "page_title": "About Us",
+    "page_subtitle": "A Family Legacy Rooted in Construction Since 1985",
+    "story_title": "Our Story",
+    "story_text": "Fekih Romdhane Contracting was founded in 1985 in Bekalta, Tunisia, by pioneer contractor Mokhtar Fekih Romdhane. Starting with local construction projects, we have grown into a full-service contracting company executing major projects across Tunisia.",
+    "story_text2": "Today, the founder's sons — Aymen, Achref, and Amine Fekih Romdhane — carry on the legacy, blending family heritage with modern construction technologies.",
+    "timeline_title": "Our Journey Through Time",
+    "timeline": [
+      { "year": "1985", "title": "Foundation", "desc": "Pioneer contractor Mokhtar Fekih Romdhane founded the company in Bekalta with a vision to build modern Tunisia" },
+      { "year": "1990", "title": "First Expansion", "desc": "The company expanded to infrastructure and road projects across the Monastir region and Tunisian coast" },
+      { "year": "1995", "title": "Business Growth", "desc": "Hundreds of residential and commercial projects executed; workforce and equipment significantly expanded" },
+      { "year": "2005", "title": "Modernization", "desc": "The next generation joined, adopting the latest construction technologies and project management practices" },
+      { "year": "2015", "title": "Regional Leadership", "desc": "Became a leading reference in contracting along Tunisia's coastal region" },
+      { "year": "2026", "title": "Tunisia Tomorrow", "desc": "Continuing to build Tunisia's future with local expertise and over 41 years of experience" }
+    ],
+    "mission_title": "Our Mission",
+    "mission": "To deliver high-quality construction and contracting services, adhering strictly to agreed timelines and budgets, while ensuring client satisfaction at every project stage.",
+    "vision_title": "Our Vision",
+    "vision": "To be Tunisia's premier contracting and construction company, preserving the values of integrity and excellence inherited since our founding.",
+    "values_title": "Our Values",
+    "values": [
+      { "icon": "★", "title": "Quality", "desc": "We are committed to the highest quality standards in every project we execute" },
+      { "icon": "🤝", "title": "Trust", "desc": "We build lasting relationships based on transparency and integrity" },
+      { "icon": "🏗️", "title": "Expertise", "desc": "Half a century of accumulated expertise in the construction field" },
+      { "icon": "⏰", "title": "Commitment", "desc": "We honor our promises and deliver our projects on schedule" }
+    ],
+    "team_title": "Our Leadership",
+    "team": [
+      { "initial": "M", "name": "Mokhtar Fekih Romdhane", "role": "Founder & Pioneer · 1985", "desc": "Pioneer contractor of the region and company founder" },
+      { "initial": "A", "name": "Aymen Fekih Romdhane", "role": "Chief Executive Officer", "desc": "Leads the company with vision and passion to continue the founder's legacy" },
+      { "initial": "A", "name": "Achref Fekih Romdhane", "role": "Projects Director", "desc": "Oversees major project execution with precision and professionalism" },
+      { "initial": "A", "name": "Amine Fekih Romdhane", "role": "Technical Director", "desc": "Manages the technical and engineering aspects of all projects" }
+    ]
+  },
+  "services": {
+    "page_title": "Our Services",
+    "page_subtitle": "Comprehensive construction solutions with unmatched quality",
+    "items": [
+      { "id": "civil", "icon": "🏗️", "title": "Civil Engineering Works", "desc": "Executing civil engineering projects to the highest technical and safety standards.", "features": ["Concrete structures", "Excavation & backfilling", "Drainage projects", "Bridges & tunnels"] },
+      { "id": "building", "icon": "🏢", "title": "Building Construction", "desc": "Building residential, commercial, and industrial structures from foundation to handover.", "features": ["Residential buildings", "Commercial complexes", "Industrial facilities", "Government buildings"] },
+      { "id": "renovation", "icon": "🔨", "title": "Renovation & Restoration", "desc": "Renovating and restoring existing buildings with modern methods and materials.", "features": ["Historic building restoration", "Facade renewal", "Interior system upgrades", "Structural repair"] },
+      { "id": "roads", "icon": "🛣️", "title": "Road Works", "desc": "Construction and maintenance of roads, pathways, and earthworks.", "features": ["Road construction", "Paving & surfacing", "Drainage works", "Signage & lighting"] },
+      { "id": "infrastructure", "icon": "⚡", "title": "Infrastructure", "desc": "Executing infrastructure projects including integrated networks and systems.", "features": ["Water networks", "Electrical networks", "Pipes & channels", "Site preparation"] },
+      { "id": "custom", "icon": "⚙️", "title": "Custom Projects", "desc": "Executing custom projects tailored to client requirements with innovative solutions.", "features": ["Technical studies", "Design & planning", "Supervision & follow-up", "Quality assurance"] }
+    ]
+  },
+  "projects": {
+    "page_title": "Our Projects",
+    "page_subtitle": "Our work speaks for itself — 500+ completed projects",
+    "filters": { "all": "All", "residential": "Residential", "commercial": "Commercial", "infrastructure": "Infrastructure", "renovation": "Renovation" },
+    "view_details": "View Details",
+    "no_projects": "No projects in this category",
+    "items": [
+      { "id": 1,  "title": "Bekalta Residential Complex",    "category": "residential",    "location": "Bekalta, Monastir", "year": "2023", "desc": "Residential complex with 24 modern housing units",           "img": "assets/images/385537975_1145798803071901_8418012223115103662_n.jpg" },
+      { "id": 2,  "title": "Commercial Building Project",    "category": "commercial",     "location": "Sfax",             "year": "2022", "desc": "Multi-floor commercial center spanning 5,000 m²",           "img": "assets/images/433872749_916643416617368_7624371971932333615_n.jpg" },
+      { "id": 3,  "title": "Infrastructure Works",          "category": "infrastructure", "location": "Monastir",         "year": "2022", "desc": "Development and construction of an 8 km coastal road",       "img": "assets/images/434003997_395904863298210_8636409309548724637_n.jpg" },
+      { "id": 4,  "title": "Historic Building Restoration", "category": "renovation",     "location": "Ksar Hellal",      "year": "2021", "desc": "Comprehensive restoration of a historic municipal building",  "img": "assets/images/434177102_780509327475520_7214815037736761269_n.jpg" },
+      { "id": 5,  "title": "Luxury Villa Monastir",         "category": "residential",    "location": "Monastir",         "year": "2023", "desc": "Luxury villa with contemporary design and private garden",   "img": "assets/images/695142890_1734766564057395_1082126646634745524_n.jpg" },
+      { "id": 6,  "title": "Industrial Facility",           "category": "commercial",     "location": "Sousse",           "year": "2021", "desc": "Industrial warehouse complex spanning 2 hectares",          "img": "assets/images/695261837_1414438470488477_2238349093495141734_n.jpg" },
+      { "id": 7,  "title": "Integrated Infrastructure",     "category": "infrastructure", "location": "Djemal",           "year": "2020", "desc": "Complete sewer network project for Djemal municipality",    "img": "assets/images/695891509_1319820490348434_5629848761004793966_n.jpg" },
+      { "id": 8,  "title": "Full Renovation Project",       "category": "renovation",     "location": "Hammamet",         "year": "2022", "desc": "Full renovation of a 4-star hotel on the Tunisian coast",  "img": "assets/images/695998936_1519885679858104_6423790317697492295_n.jpg" },
+      { "id": 9,  "title": "Social Housing Project",        "category": "residential",    "location": "Zawiyat Qantash",  "year": "2023", "desc": "Social housing project with 48 residential units",          "img": "assets/images/696170572_1016345337401544_8229904689453477514_n.jpg" },
+      { "id": 10, "title": "Road Works & Site Prep",        "category": "infrastructure", "location": "Monastir",         "year": "2023", "desc": "Internal road works, parking areas and public spaces",     "img": "assets/images/696363417_2133861410512778_7326171503186459942_n.jpg" },
+      { "id": 11, "title": "Modern Residential Complex",    "category": "residential",    "location": "Bekalta",          "year": "2022", "desc": "Sea-view residential complex with high-end finishes",      "img": "assets/images/700691569_2264586214293559_1800762497814312271_n.jpg" },
+      { "id": 12, "title": "Administrative Buildings",      "category": "commercial",     "location": "Tunisia",          "year": "2021", "desc": "Construction of modern office and administrative complex",  "img": "assets/images/701101345_1368300711893352_796877742080026176_n.jpg" }
+    ]
+  },
+  "contact": {
+    "page_title": "Contact Us",
+    "page_subtitle": "We are here to help you achieve your project",
+    "phone_label": "Phone",
+    "phone": "+216 21 351 471",
+    "whatsapp_label": "WhatsApp",
+    "email_label": "Email",
+    "email": "achreffekihromdhanne@gmail.com",
+    "address_label": "Address",
+    "address": "Bekalta, Monastir, Tunisia",
+    "hours_label": "Working Hours",
+    "hours": "Monday – Friday: 08:00 – 17:00",
+    "map_title": "Our Location on the Map",
+    "team_phones": [
+      { "name": "Aymen Fekih Romdhane",  "phone": "+216 21 351 471", "wa": "21621351471" },
+      { "name": "Achref Fekih Romdhane", "phone": "+216 96 112 610", "wa": "21696112610" },
+      { "name": "Amine Fekih Romdhane",  "phone": "+216 29 245 231", "wa": "21629245231" }
+    ],
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "name_placeholder": "Enter your full name",
+      "email": "Email Address",
+      "email_placeholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phone_placeholder": "Enter your phone number",
+      "subject": "Subject",
+      "subject_placeholder": "Message subject",
+      "message": "Message",
+      "message_placeholder": "Write your message here...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message was sent successfully! We will contact you soon.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Fekih Romdhane Contracting — a family legacy serving construction since 1985. We build with trust, we deliver with commitment.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Information",
+    "follow_us": "Follow Us",
+    "rights": "All rights reserved",
+    "company": "Fekih Romdhane Contracting"
+  },
+  "common": {
+    "learn_more": "Learn More",
+    "view_all": "View All",
+    "contact_us": "Contact Us",
+    "our_services": "Our Services",
+    "close": "Close",
+    "dark_mode": "Dark Mode",
+    "light_mode": "Light Mode"
+  }
+}

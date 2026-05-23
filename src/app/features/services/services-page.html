@@ -1,0 +1,72 @@
+<!-- PAGE BANNER -->
+<section class="hero-pattern pt-32 pb-16 relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-20"></div>
+  <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+    <div class="inline-flex items-center gap-2 bg-amber-500/15 border border-amber-500/30 text-amber-400 text-sm font-semibold px-5 py-2 rounded-full mb-6">
+      <span class="w-2 h-2 bg-amber-400 rounded-full"></span>
+      {{ 'nav.services' | t }}
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">{{ 'services.page_title' | t }}</h1>
+    <p class="text-slate-400 text-lg max-w-2xl mx-auto">{{ 'services.page_subtitle' | t }}</p>
+  </div>
+</section>
+
+<!-- SERVICES GRID -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      @for (svc of services; track svc.id; let i = $index) {
+        <div [scrollReveal]="''"
+             [revealDelay]="(delays[i])"
+             class="group bg-white rounded-2xl shadow-md hover:shadow-2xl border border-slate-100 hover:border-amber-200 overflow-hidden transition-all duration-300 hover:-translate-y-1.5 flex flex-col">
+
+          <!-- Card header -->
+          <div class="bg-gradient-to-br from-slate-900 to-slate-800 p-8 relative overflow-hidden">
+            <div class="absolute end-0 bottom-0 w-24 h-24 bg-amber-500/10 rounded-full -me-8 -mb-8"></div>
+            <div class="text-5xl mb-3">{{ svc.icon }}</div>
+            <h3 class="text-xl font-bold text-white group-hover:text-amber-400 transition-colors">
+              {{ svc.title }}
+            </h3>
+          </div>
+
+          <!-- Card body -->
+          <div class="p-8 flex flex-col flex-1">
+            <p class="text-slate-500 text-sm leading-relaxed mb-6">{{ svc.desc }}</p>
+            <ul class="space-y-2.5 mt-auto">
+              @for (feature of svc.features; track feature) {
+                <li class="flex items-center gap-3 text-slate-700 text-sm">
+                  <span class="w-5 h-5 bg-amber-500/15 rounded-full flex items-center justify-center shrink-0">
+                    <span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span>
+                  </span>
+                  {{ feature }}
+                </li>
+              }
+            </ul>
+          </div>
+
+          <!-- Card footer -->
+          <div class="px-8 pb-8">
+            <a routerLink="/contact"
+               class="block w-full text-center bg-slate-900 group-hover:bg-amber-500 text-white font-semibold py-3 rounded-xl transition-all duration-300 text-sm">
+              {{ 'common.contact_us' | t }}
+            </a>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="py-16 bg-amber-500 relative overflow-hidden">
+  <div class="absolute inset-0 hero-grid opacity-10"></div>
+  <div class="relative z-10 max-w-3xl mx-auto px-4 text-center">
+    <h2 [scrollReveal]="''" class="text-3xl font-extrabold text-white mb-4">{{ 'hero.slogan' | t }}</h2>
+    <p [scrollReveal]="''" [revealDelay]="'200'" class="text-amber-100 mb-8">{{ 'hero.description' | t }}</p>
+    <a [scrollReveal]="''" [revealDelay]="'300'"
+       routerLink="/contact"
+       class="inline-flex items-center gap-2 bg-white text-amber-600 hover:bg-amber-50 font-bold px-8 py-4 rounded-xl shadow-lg transition-all duration-200">
+      {{ 'common.contact_us' | t }}
+    </a>
+  </div>
+</section>

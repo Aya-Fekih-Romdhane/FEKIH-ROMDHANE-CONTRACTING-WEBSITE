@@ -1,0 +1,77 @@
+@if (ts.isRtl()) {
+  <!-- ══ ARABIC RTL: [TEXT] ──── [BADGE facing left] ══ -->
+  <div style="display:flex; align-items:center; gap:12px;">
+    <!-- Text LEFT -->
+    <div style="display:flex; flex-direction:column; line-height:1;">
+      <span style="font-family:'Cairo',sans-serif; font-size:18px; font-weight:900; color:white; white-space:nowrap;">
+        فقيه رمضان
+      </span>
+      <div style="height:3px; background:#f59e0b; border-radius:2px; margin:4px 0;"></div>
+      <span style="font-family:'Cairo',sans-serif; font-size:11px; font-weight:700; color:#f59e0b; white-space:nowrap;">
+        للمقاولات
+      </span>
+    </div>
+
+    <!-- Badge RIGHT — crane mirrored to face LEFT (toward text) -->
+    <svg width="52" height="52" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="68" height="68" rx="6" fill="#1e1e1e"/>
+      <!-- Amber RIGHT-edge stripe -->
+      <rect x="63" y="0" width="5" height="68" rx="3" fill="#f59e0b"/>
+      <!-- Crane mirrored: transform="translate(68,0) scale(-1,1)" -->
+      <g transform="translate(68,0) scale(-1,1)">
+        <rect x="26" y="14" width="8"  height="44" rx="1.5" fill="#f59e0b"/>
+        <rect x="8"  y="11" width="20" height="7"  rx="1.5" fill="#f59e0b"/>
+        <rect x="26" y="11" width="34" height="7"  rx="1.5" fill="#f59e0b"/>
+        <rect x="51" y="18" width="6"  height="5"  rx="1"   fill="#f59e0b"/>
+        <line x1="54" y1="23" x2="54" y2="36" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+        <rect x="49" y="36" width="10" height="8"  rx="2"   fill="#f59e0b"/>
+        <rect x="16" y="58" width="26" height="5"  rx="2"   fill="#f59e0b"/>
+        <line x1="26" y1="30" x2="34" y2="24" stroke="#1e1e1e" stroke-width="1.2"/>
+        <line x1="26" y1="24" x2="34" y2="30" stroke="#1e1e1e" stroke-width="1.2"/>
+        <line x1="26" y1="44" x2="34" y2="38" stroke="#1e1e1e" stroke-width="1.2"/>
+        <line x1="26" y1="38" x2="34" y2="44" stroke="#1e1e1e" stroke-width="1.2"/>
+      </g>
+      <text x="34" y="55" font-family="'Inter','Arial Black',sans-serif"
+            font-size="8.5" font-weight="900" fill="white" text-anchor="middle" letter-spacing="2">FRC</text>
+    </svg>
+
+  </div>
+
+} @else {
+
+  <!-- ══ LTR: [BADGE LEFT] ──── [TEXT RIGHT] ══ -->
+  <div style="display:flex; align-items:center; gap:12px;">
+
+    <!-- Badge LEFT — crane facing RIGHT -->
+    <svg width="52" height="52" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="68" height="68" rx="6" fill="#1e1e1e"/>
+      <rect x="0" y="0" width="5"  height="68" rx="3" fill="#f59e0b"/>
+      <rect x="26" y="14" width="8"  height="44" rx="1.5" fill="#f59e0b"/>
+      <rect x="8"  y="11" width="20" height="7"  rx="1.5" fill="#f59e0b"/>
+      <rect x="26" y="11" width="34" height="7"  rx="1.5" fill="#f59e0b"/>
+      <rect x="51" y="18" width="6"  height="5"  rx="1"   fill="#f59e0b"/>
+      <line x1="54" y1="23" x2="54" y2="36" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+      <rect x="49" y="36" width="10" height="8"  rx="2"   fill="#f59e0b"/>
+      <rect x="16" y="58" width="26" height="5"  rx="2"   fill="#f59e0b"/>
+      <line x1="26" y1="30" x2="34" y2="24" stroke="#1e1e1e" stroke-width="1.2"/>
+      <line x1="26" y1="24" x2="34" y2="30" stroke="#1e1e1e" stroke-width="1.2"/>
+      <line x1="26" y1="44" x2="34" y2="38" stroke="#1e1e1e" stroke-width="1.2"/>
+      <line x1="26" y1="38" x2="34" y2="44" stroke="#1e1e1e" stroke-width="1.2"/>
+      <text x="34" y="55" font-family="'Inter','Arial Black',sans-serif"
+            font-size="8.5" font-weight="900" fill="white" text-anchor="middle" letter-spacing="2">FRC</text>
+    </svg>
+
+    <!-- Text RIGHT -->
+    <div style="display:flex; flex-direction:column; line-height:1;">
+      <span style="font-family:'Inter','Helvetica Neue',sans-serif; font-size:17px; font-weight:900; color:white; letter-spacing:0.5px; white-space:nowrap;">
+        FEKIH ROMDHANE
+      </span>
+      <div style="height:3px; background:#f59e0b; border-radius:2px; margin:4px 0;"></div>
+      <span style="font-family:'Inter','Helvetica Neue',sans-serif; font-size:9px; font-weight:600; color:#f59e0b; letter-spacing:4px; white-space:nowrap;">
+        CONTRACTING
+      </span>
+    </div>
+
+  </div>
+
+}
