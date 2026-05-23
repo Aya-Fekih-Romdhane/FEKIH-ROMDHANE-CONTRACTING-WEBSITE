@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # 🏗️ Fekih Romdhane Contracting — شركة فقيه رمضان للمقاولات
 
-> **Building Tunisia Since 1970** — Modern Angular 21 website for a family construction company based in Bekalta, Monastir, Tunisia.
+> **Building Tunisia Since 1985** — Modern Angular 21 website for a family construction company based in Bekalta, Monastir, Tunisia.
 
 ---
 
@@ -169,7 +169,5 @@ The contact page includes a Google Maps iframe for Bekalta, Monastir. To update 
 
 ---
 
-*© 2025 Fekih Romdhane Contracting — Bekalta, Monastir, Tunisia. Est. 1970.*
-=======
-# FEKIH-ROMDHANE-CONTRACTING-WEBSITE
->>>>>>> 77c8a66fc848217b39be15b58a396b2471bb2138
+
+*© 2026 Fekih Romdhane Contracting — Bekalta, Monastir, Tunisia. Est. 1985.*
